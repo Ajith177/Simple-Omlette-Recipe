@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url("../recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #f3e4d9;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main {
+  background-color: white;
+  margin: 0 auto;
+  width: 45%;
+  height: 100%;
+  border-radius: 10px;
+  padding:0px 10px 0px 10px;
+}
+
+.omlete {
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 0px 0px 0px 10px;
+}
+
+.description,
+.prepare {
+  margin: 10px 10px 10px 10px;
+}
+
+.prepare {
+  color: #813e58;
+  font-weight: bold;
+}
+
+.list {
+  margin: 0px 0px 0px 80px;
+}
+
+.division_2 {
+  background-color: #fff7fc;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0px 20px 10px 20px;
+}
+
+.topic {
+  color: #975726;
+  margin: 0px 10px 5px 20px;
+}
+
+.list_1 {
+  margin: 0px 0px 0px 60px;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid lightslategray;
+ padding-left:20px;
+}
+
+
+@media (min-width:320px) and (max-width:426px)
+{
+    .main {
+        background-color: white;
+        margin: 0 auto;
+        width: fit-content;
+        height: 100%;
+        border: 2px solid red;
+        border-radius: 10px;
+        padding:10px;
+      }
+      .list_1 {
+        margin: 0px 0px 0px 50px;
+      }
+      .list {
+        margin: 0px 0px 0px 70px;
+      }
+}
